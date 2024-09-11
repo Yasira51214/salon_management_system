@@ -1,0 +1,94 @@
+/* body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    margin: 20px;
+    margin-left:280px;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #cd015b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f25a9c;
+    color: #fff;
+}
+
+td {
+    background-color: #e0f7fa;
+    color: white;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 6px 0;
+    font-size: 1em;
+}
+
+select {
+    background-color: white;
+    appearance: none;
+    padding-right: 30px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.form-buttons {
+    text-align: right;
+    margin-top: 20px;
+    
+}
+
+button {
+    background-color: #cd015b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+    background-color: #cd015b;
+}
+
+button:hover {
+    background-color: #f25a9c;
+    color: #fff;
+}
+select option{
+    background-color: red;
+}

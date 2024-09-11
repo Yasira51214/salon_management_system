@@ -1,0 +1,118 @@
+
+
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        color: #22584b;
+    }
+    .container {
+        width: 70%;
+        margin: 20px;
+        margin-left:280px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .calendar {
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #2b6b5c;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    }
+    
+    .calendar-header a {
+        color: #2b6b5c;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.3s;
+        color: white;
+
+    }
+    
+    .calendar-header a:hover {
+        color: #2b6b5c;
+    }
+    
+    .calendar-header .month-year {
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #2b6b5c;
+        color: white;
+
+    }
+    
+    .calendar-body {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+        padding: 20px;
+        width: 100%;
+        color: #22584b;
+    }
+    
+    .day {
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: #f0f0f0;
+        position: relative;
+        transition: background 0.3s, transform 0.3s;
+        width: 130px;
+        height: 150px;
+    }
+    
+    .day:hover {
+        background: #e0e0e0;
+        transform: scale(1.05);
+    }
+    
+    .day .income {
+        color: blue;
+        font-size: 12px;
+    }
+    
+    .day .expense {
+        color: red;
+        font-size: 12px;
+    }
+    
+    .day .balance {
+        color:green;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .day div {
+        margin: 5px 0;
+        font-size: 30px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    /* @media (max-width: 768px) {
+        .calendar-body {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    } */

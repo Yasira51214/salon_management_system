@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f25a9c;
+  }
+  
+  .container {
+    width: 70%;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #cd015b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #f25a9c;
+    
+  }
+  
+  .customer-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .customer-table th, .customer-table td {
+    border: 1px solid #f25a9c;
+    padding: 15px;
+    text-align: center; /* Center align text in table headers and cells */
+  }
+  
+  .customer-table th {
+    background-color:#f25a9c;
+    color: #ffffff;
+  }
+  
+  .customer-table tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  .customer-table tbody tr:hover {
+    background-color: #f25a9c;
+    color: white;
+  }
+  
+  .customer-table a {
+    color: #cd015b;
+    text-decoration: none;
+  }
+  
+  .customer-table a:hover {
+    /* text-decoration: underline; */
+    color: white;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .form-buttons button {
+    padding: 10px 20px;
+    background-color: #cd015b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #f25a9c;;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .page-btn {
+    background-color:  #cd015b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .page-btn.active {
+    background-color: #f25a9c;
+    
+  }
+  

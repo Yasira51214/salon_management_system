@@ -1,0 +1,221 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #22584b;
+  }
+  .container {
+    width: 70%;
+    margin: 50px;
+    margin-left:280px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.feedback-container {
+text-align: center;
+
+}
+
+
+.icons {
+display: flex;
+justify-content: space-between;
+margin: 20px 0;
+}
+
+.icon {
+width: 50px;
+height: 50px;
+}
+
+.message {
+color: black;
+font-size: 1.2em;
+margin-bottom: 20px;
+text-align: left;
+}
+
+.feedback-table {
+width: 100%;
+/* max-width: 600px; */
+margin: 0 auto;
+border-collapse: collapse;
+}
+
+.feedback-table th, .feedback-table td {
+border: 1px solid #444;
+padding: 10px;
+text-align: center;
+}
+
+.feedback-table th {
+background-color: #22584b;
+color: white;
+}
+
+.feedback-table td {
+background-color: white;
+}
+
+.feedback-table input {
+width: 100%;
+padding: 8px;
+box-sizing: border-box;
+}
+
+
+.actions-feedback {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 20px;
+}
+
+.actions-feedback button {
+background-color: #22584b;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.actions-feedback button:hover {
+background-color: #22584b;
+}
+.actions-feedback button a {
+      text-decoration: none;
+      color: white;
+}
+
+.star-rating {
+    display: inline-flex;
+    font-size: 24px;
+    color: #ccc; /* Default star color */
+    cursor: pointer;
+}
+
+.star-rating .star {
+    margin: 0;
+    padding: 0;
+}
+
+.star-rating .star:hover,
+.star-rating .star.selected {
+    color: #f5c518; /* Highlighted star color */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: white;
+}
+td {
+    background-color: white;
+}
+
+   /* Responsive Design */
+   @media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    .search-bar input[type="text"] {
+        font-size: 14px;
+    }
+    .search-bar button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .feedback-table th, .feedback-table td {
+        padding: 6px;
+        font-size: 12px;
+    }
+    .footer-buttons button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 40%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .search-bar input[type="text"] {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .search-bar button {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .feedback-table th, .feedback-table td {
+        font-size: 10px;
+        padding: 4px;
+    }
+    .feedback-table {
+        overflow-x: auto;
+        display: block;
+    }
+    .footer-buttons button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+    .search-bar input[type="text"] {
+        font-size: 16px;
+    }
+    .search-bar button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .feedback-table th, .feedback-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .footer-buttons button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (min-width: 1025px) {
+   
+    h1 {
+        font-size: 32px;
+    }
+    .search-bar input[type="text"] {
+        font-size: 18px;
+    }
+    .search-bar button {
+        font-size: 18px;
+        padding: 12px;
+    }
+    .feedback-table th, .feedback-table td {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .footer-buttons button {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+}

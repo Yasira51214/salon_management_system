@@ -1,0 +1,137 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    width: 70%;
+    margin: 20px;
+    margin-left:280px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #22584b;
+}
+
+#head {
+    color: #22584b;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-bar .search-btn {
+    background-color: #22584b;
+    color:white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.search-bar .search-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar .search-btn:hover {
+    background-color: #22584b;
+}
+
+.balance-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance-table th, .balance-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.balance-table th {
+    background-color: #22584b;
+    color: white;
+    font-weight: bold;
+}
+
+.balance-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-buttons button {
+    background-color: #22584b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    justify-content: flex-end;
+}
+    .action button{  
+    background-color: #22584b;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        justify-content: flex-end;
+    }
+.footer-buttons button:hover {
+    background-color: #22584b;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .balance-table th, .balance-table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .footer-buttons button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,147 @@
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: #22584b;
+}
+.container {
+  width:100%;
+  margin: 50px;
+  margin-left: 280px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.search-bar input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #2b6b5c;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search-bar button:hover {
+  background-color: #448275;
+}
+.add {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #22584b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+  margin-bottom: 5px;
+}
+
+.add:hover {
+  background-color: #22584b;
+}
+.customer-table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  align-items: center;
+}
+
+.customer-table th, .customer-table td {
+  border: 1px solid #448275;
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.customer-table th {
+  background-color: #22584b;
+  color: #ffffff;
+}
+.customer-table tbody tr:nth-child(even) {
+  background-color: white;
+}
+.customer-table tbody tr:hover {
+  background-color: #a2beb8;
+}
+.customer-table a {
+  color: #22584b;
+  text-decoration: none;
+}
+.customer-table a:hover {
+  text-decoration: underline;
+}
+.form-buttons {
+  display: none;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.form-buttons button a {
+  padding: 10px 20px;
+  background-color: #22584b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.form-buttons button:hover {
+  background-color: #679b9f;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.page-btn {
+  background-color: #22584b;
+  color: white;
+  border: none;
+  padding: 6px 6px;
+  margin: 5px; /* Adds space between buttons */
+  cursor: pointer;
+  display: inline-block; /* Ensures buttons are inline and the margin applies */
+}
+
+.page-btn-container {
+  text-align: center; /* Centers the buttons horizontally */
+  margin-top: 20px; /* Adds some space above the button container */
+}
+
+.page-btn.active {
+  background-color: #679b9f;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page-btn {
+  background-color: #22584b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.removed {
+  background-color: #f2f2f2; /* Light gray background for removed customers */
+  color: #a0a0a0; /* Gray text color */
+}
